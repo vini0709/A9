@@ -1,0 +1,45 @@
+/*
+File: /~vini0709/A9/css/A9.css
+91.461 GUI Programming I  Assignment# 9: Implementing a Bit of Scrabble with Drag-and-Drop
+Vinishaben Patel, Umass Lowell Computer Science, Vinishaben_Patel@student.uml.edu
+Copyright (c) 2018 by Vinishaben Patel. All rights reserved.
+updated by VP on December 19, 2018 at 9:00 PM
+Description: implementation of scrabble game using drag and drog UI widgets
+*/
+
+body {
+  background-image: url("../images/wood.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#button {
+  padding-top: 20px;
+}
+
+#Tile_Holder {
+  width: 1200px;
+  height: 100px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  border : black 3px solid;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+label {
+  color :white;
+  padding-right: 5px;
+}
+
+#result {
+  margin: 20px;
+  padding: 5px;
+}
